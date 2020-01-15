@@ -1,3 +1,4 @@
+import vietnamLanguage    from 'data/languages/vn';
 import chineseLanguage    from 'data/languages/cn';
 import germanLanguage     from 'data/languages/de';
 import englishLanguage    from 'data/languages/en';
@@ -15,6 +16,9 @@ import dutchLanguage      from 'data/languages/nl';
 import polishLanguage     from 'data/languages/pl';
 
 export default {
+        'vn': {
+        name: 'Vietnam',
+        data: vietnamLanguage
     'en': {
         name: 'English',
         data: englishLanguage
